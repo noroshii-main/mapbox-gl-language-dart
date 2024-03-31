@@ -7,9 +7,10 @@ publish_to: none
 environment:
   sdk: ^3.3.2
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  js: ^0.7.1
+  mapbox_gl_dart:
+    git: https://github.com/noroshii-main/mapbox-gl-dart
 
 dev_dependencies:
   lints: ^3.0.0
