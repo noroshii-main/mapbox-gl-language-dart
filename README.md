@@ -26,12 +26,6 @@ Activate webdev
 dart pub global activate webdev
 ```
 
-Replace `REPLACE_YOUR_MAPBOX_ACCESS_TOKEN` to your Mapbox access token in `example/index.dart`.
-
-```dart:index.dart
-Mapbox.accessToken = "REPLACE_YOUR_MAPBOX_ACCESS_TOKEN";
-```
-
 Serve examples.
 
 ```bash
