@@ -1,6 +1,23 @@
 # mapbox-gl-language-dart
 
 [mapbox-gl-language](https://github.com/mapbox/mapbox-gl-language) for Dart.
+
+## How to get package
+
+Add the following to `pubspec.yaml`.
+
+```yaml:pubspec.yaml
+dependencies:
+  mapbox_gl_dart:
+    git: https://github.com/noroshii-main/mapbox-gl-dart
+```
+
+After that, you get the package.
+
+```bash
+dart pub get
+```
+
 ## How to run examples
 
 Activate webdev
