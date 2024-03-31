@@ -2,6 +2,17 @@
 
 [mapbox-gl-language](https://github.com/mapbox/mapbox-gl-language) for Dart.
 
+## Load mapbox-gl-language.js in index.html
+
+```html:index.html
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-language/v1.0.0/mapbox-gl-language.js"></script>
+<link
+  href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css"
+  rel="stylesheet"
+/>
+```
+
 ## How to get package
 
 Add the following to `pubspec.yaml`.
