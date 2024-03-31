@@ -8,7 +8,7 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  js: ^0.7.1
+  js: ">=0.6.0"
   mapbox_gl_dart:
     git:
       url: https://github.com/noroshii-main/mapbox-gl-dart.git
