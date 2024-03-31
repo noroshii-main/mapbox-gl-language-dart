@@ -8,8 +8,9 @@ Add the following to `pubspec.yaml`.
 
 ```yaml:pubspec.yaml
 dependencies:
-  mapbox_gl_dart:
-    git: https://github.com/noroshii-main/mapbox-gl-dart
+  mapbox_gl_language_dart:
+    git:
+      url: https://github.com/noroshii-main/mapbox-gl-language-dart.git
 ```
 
 After that, you get the package.
