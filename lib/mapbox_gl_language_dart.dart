@@ -17,7 +17,8 @@ class MapboxLanguage extends JsObjectWrapper<MapboxLanguageJsImpl> {
 
   getDefaultPosition() => jsObject.getDefaultPosition();
 
-  MapboxLanguage.fromJsObject(super.jsObject) : super.fromJsObject();
+  MapboxLanguage.fromJsObject(MapboxLanguageJsImpl jsObject)
+      : super.fromJsObject(jsObject);
 }
 
 @JS('MapboxLanguage')
@@ -34,7 +35,8 @@ class MapboxLanguageOptions
       MapboxLanguageOptions.fromJsObject(
           MapboxLanguageOptionsJsImpl(defaultLanguage: defaultLanguage));
 
-  MapboxLanguageOptions.fromJsObject(super.jsObject) : super.fromJsObject();
+  MapboxLanguageOptions.fromJsObject(MapboxLanguageOptionsJsImpl jsObject)
+      : super.fromJsObject(jsObject);
 }
 
 @JS()
